@@ -1,0 +1,88 @@
+// menu.scss
+:is(.left-menu, .sub-menu):hover {
+  scale: 1.1;
+
+}
+// Left-menu base styles
+$leftMenu-size: (
+  1: (11.5rem, 6rem),
+  2: (10rem, 5.5rem),
+  3: (9rem, 8rem),
+  4: (11rem, 5rem)
+);
+.left-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #eee;
+  color: #333;
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  position: relative;
+  transition: scale .3s, filter .3s;
+  will-change: scale, filter;
+  @each $i, $size in $leftMenu-size {
+    $width: nth($size, 1);
+    $height: nth($size, 2);
+    &.item-#{$i} {
+      mask: url('./assets/SVG/left-mask#{$i}.svg') no-repeat center / contain;
+      -webkit-mask: url('./assets/SVG/left-mask#{$i}.svg') no-repeat center / contain;
+      width: $width;
+      height: $height;
+    }
+  }
+}
+.left-menu-container {
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow(8px 9px 0.75px rgba(238,238,238,.4))
+}
+
+//right-menu
+$rightMenu-size: 4.75rem;
+
+.right-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+  gap: .85rem;
+
+  @for $i from 1 through 5 {
+    &.item-#{$i} {
+      width: $rightMenu-size * 2.2;
+      height: $rightMenu-size;
+      display: flex;
+      flex-direction: row;
+
+      .sub-menu {
+        width: 50%;
+        height: 100%;
+        box-sizing: border-box;
+        background-color: #eee;
+        color: #333;
+        outline: 1.5px solid #eee;
+        outline-offset: 1.5px;
+        border-radius: .5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: scale .3s, filter .3s;
+        will-change: scale, filter;
+      }
+
+      .sub-menu-1,
+      .sub-menu-2 {
+        background-position: center;
+      }
+    }
+  }
+}
+.right-menu-container {
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(-9px 10px 0.75px rgba(238,238,238,.4))
+}

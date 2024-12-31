@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-be23945c-b8d0-4044-9d95-9d0f43944c2b" data-name="图层 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 380 318.51">
+  <defs>
+    <filter id="uuid-cbff4ea0-534e-477f-a17a-60c9ea7691cb" data-name="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="16"/>
+      <feGaussianBlur result="uuid-0253bf27-86a3-4fa7-bbce-b0e72eb940ea" stdDeviation="2"/>
+      <feFlood flood-color="#000" flood-opacity="1"/>
+      <feComposite in2="uuid-0253bf27-86a3-4fa7-bbce-b0e72eb940ea" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="uuid-a43b7405-a35f-484b-9817-95f17cc745fb" data-name="图层 1">
+    <g id="uuid-09664e24-4768-4bfa-94dc-2ca494930f1d" data-name="追击">
+      <polygon points="373.03 149.15 326.79 108.75 214.34 108.75 347.67 0 277.7 0 144.2 108.75 188.18 147.17 6.03 147.17 52.27 187.57 164.73 187.57 31.39 296.32 101.36 296.32 234.86 187.57 190.88 149.15 373.03 149.15" style="fill: #fff; filter: url(#uuid-cbff4ea0-534e-477f-a17a-60c9ea7691cb); stroke-width: 0px;"/>
+    </g>
+  </g>
+</svg>

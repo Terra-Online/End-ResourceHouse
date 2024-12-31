@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="图层 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 364 321.04">
+  <defs>
+    <filter id="d" data-name="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="19"/>
+      <feGaussianBlur result="e" stdDeviation="3"/>
+      <feFlood flood-color="#000" flood-opacity=".4"/>
+      <feComposite in2="e" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="c" data-name="图层 1">
+    <g style="filter: url(#d);">
+      <g>
+        <polygon points="115.034 230.524 115.034 321.04 178.99 321.04 178.99 201.328 178.99 166.568 115.034 230.524" style="fill: #fff; stroke-width: 0px;"/>
+        <polygon points="178.99 92.149 178.99 25.6 115.034 25.6 115.034 137.372 0 137.372 0 201.328 69.81 201.328 178.99 92.149" style="fill: #fff; stroke-width: 0px;"/>
+      </g>
+      <g>
+        <polygon points="248.966 94.363 248.966 0 185.01 0 185.01 118.342 185.01 158.319 248.966 94.363" style="fill: #fff; stroke-width: 0px;"/>
+        <polygon points="294.19 118.342 185.01 227.522 185.01 293.463 248.966 293.463 248.966 182.298 364 182.298 364 118.342 294.19 118.342" style="fill: #fff; stroke-width: 0px;"/>
+      </g>
+    </g>
+  </g>
+</svg>

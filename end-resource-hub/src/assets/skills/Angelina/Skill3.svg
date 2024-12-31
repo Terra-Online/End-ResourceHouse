@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="图层 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 325.437">
+  <defs>
+    <filter id="d" data-name="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="20"/>
+      <feGaussianBlur result="e" stdDeviation="3"/>
+      <feFlood flood-color="#444" flood-opacity=".51"/>
+      <feComposite in2="e" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="c" data-name="图层 1">
+    <g style="filter: url(#d);">
+      <path d="M165,0C73.873,0,0,73.873,0,165c0,61.295,33.424,114.782,83.04,143.234V82.235L165,.274l81.96,81.96v225.999c49.615-28.452,83.04-81.939,83.04-143.234C330,73.873,256.127,0,165,0Z" style="fill: #fff; stroke-width: 0px;"/>
+      <polygon points="161.074 160.269 161.074 325.437 168.386 325.437 168.386 160.809 246.96 82.235 83.04 82.235 161.074 160.269" style="fill: #fff; stroke-width: 0px;"/>
+    </g>
+  </g>
+</svg>

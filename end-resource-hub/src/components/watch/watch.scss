@@ -1,0 +1,62 @@
+/* watch.scss */
+.watch {
+  width: 100vmax;
+  height: 100vmin;
+  position: absolute;
+  perspective: 1000px;
+  overflow: hidden;
+  background-image: url('../../assets/bg.webp');
+  background-size: cover;
+}
+
+.layer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80vmin;
+  height: 80vmin;
+  border-radius: 50%;
+  transform-style: preserve-3d;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &.layer-1,&.layer-2 {
+    border: 3px solid  #447074;
+    box-shadow: 0 0 20px black;
+    z-index: 6;
+  }
+  &.layer-2 {
+    z-index: 5;
+  }
+  &.layer-3 {
+    border: 3px solid #3a6d9f;
+    width: 70vmin;
+    height: 70vmin;
+    z-index: 4;
+  }
+  &.layer-4 {
+    border: 3px solid rgb(41,78,111);
+    width: 60vmin;
+    height: 60vmin;
+    z-index: 3;
+  }
+  &.layer-5 {
+    border: 3px solid rgb(84,63,100);
+    width: 50vmin;
+    height: 50vmin;
+    z-index: 2;
+  }
+  &.layer-6 {
+    border: 3px solid #744c64;
+    width: 40vmin;
+    height: 40vmin;
+    z-index: 1;
+  }
+
+  .content {
+    color: #fff;
+    font-size: 2rem;
+  }
+}

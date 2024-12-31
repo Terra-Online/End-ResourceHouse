@@ -1,0 +1,20 @@
+{
+  "short_name": "ERH for free",
+  "name": "End Resource Hub - Free delivered, Unauthorized and should be used with caution",
+  "icons": [
+    {
+      "src": "talos1.png",
+      "type": "image/png",
+      "sizes": "778x778"
+    },
+    {
+      "src": "talos2.png",
+      "type": "image/png",
+      "sizes": "1556x1556"
+    }
+  ],
+  "start_url": ".",
+  "display": "fullscreen",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="图层 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 374 269.371">
+  <defs>
+    <filter id="d" data-name="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="7"/>
+      <feGaussianBlur result="e" stdDeviation="6"/>
+      <feFlood flood-color="#000" flood-opacity=".55"/>
+      <feComposite in2="e" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="c" data-name="图层 1">
+    <g style="filter: url(#d);">
+      <polygon points="187 108.12 109.976 108.12 1.541 .581 80.044 0 187 108.12" style="fill: #fff; stroke-width: 0px;"/>
+      <polygon points="187 188.534 118.722 188.534 0 72.87 68.278 72.87 187 188.534" style="fill: #fff; stroke-width: 0px;"/>
+      <polygon points="187 269.335 137.866 269.335 7.592 136.478 56.638 136.478 187 269.335" style="fill: #fff; stroke-width: 0px;"/>
+      <polygon points="187 108.156 264.024 108.156 372.459 .618 293.956 .037 187 108.156" style="fill: #fff; stroke-width: 0px;"/>
+      <polygon points="187 188.57 255.278 188.57 374 72.907 305.722 72.907 187 188.57" style="fill: #fff; stroke-width: 0px;"/>
+      <polygon points="187 269.371 236.134 269.371 366.408 136.514 317.362 136.514 187 269.371" style="fill: #fff; stroke-width: 0px;"/>
+    </g>
+  </g>
+</svg>
